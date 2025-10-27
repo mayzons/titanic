@@ -1,0 +1,1347 @@
+15/10/2025 16:40:55 - INFO - #-# Executando automação automática...
+15/10/2025 16:40:55 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 16:40:55 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 16:40:55 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 16:40:55 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:40:55 - INFO - #-# Executando automação automática...
+15/10/2025 16:40:55 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 16:40:55 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 16:40:55 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 16:40:55 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:40:55 - INFO - Banco resetado resetado
+15/10/2025 16:40:55 - INFO - Banco resetado resetado
+15/10/2025 16:40:55 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 16:40:55 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 16:41:14 - INFO - Total de autorizações 145309
+15/10/2025 16:41:14 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:41:14 - INFO - Total de autorizações 145309
+15/10/2025 16:41:14 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:41:14 - INFO - Banco resetado resetado
+15/10/2025 16:41:14 - INFO - Banco resetado resetado
+15/10/2025 16:41:14 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:41:14 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:41:15 - INFO - Total de linhas adiconadas ao banco 145309
+15/10/2025 16:41:15 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:41:17 - INFO - Total de linhas adiconadas ao banco 145309
+15/10/2025 16:41:17 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:41:17 - INFO - Arquivo criado com 145309 registros
+15/10/2025 16:41:17 - INFO - Autorização gerada para 2024-12-31 com sucesso!
+15/10/2025 16:41:18 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 16:41:18 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 16:41:18 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 16:41:18 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 16:41:18 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 16:41:18 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 16:41:18 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 16:41:18 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 16:41:18 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 16:41:18 - INFO - Iniciando o reset do banco
+15/10/2025 16:41:21 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:41:21 - INFO - Arquivo criado com 290618 registros
+15/10/2025 16:41:21 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 16:41:21 - INFO - Autorização gerada para 2024-12-31 com sucesso!
+15/10/2025 16:41:21 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 16:41:21 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 16:41:21 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 16:41:21 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 16:41:21 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 16:41:21 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 16:41:21 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 16:41:21 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 16:41:21 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 16:41:21 - INFO - Iniciando o reset do banco
+15/10/2025 16:41:23 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:41:23 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 16:41:32 - INFO - O retorno foi de 3129 linhas
+15/10/2025 16:41:32 - INFO - Iniciando o reset do banco
+15/10/2025 16:41:32 - INFO - O retorno foi de 3129 linhas
+15/10/2025 16:41:32 - INFO - Iniciando o reset do banco
+15/10/2025 16:41:40 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:41:40 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:41:43 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:41:43 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:41:43 - INFO - Inseridos 3129 registros!
+15/10/2025 16:41:43 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:41:43 - INFO - Inseridos 3129 registros!
+15/10/2025 16:41:43 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:41:43 - INFO - Inseridos 6258 registros!
+15/10/2025 16:41:43 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 16:41:43 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 16:41:43 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 16:41:43 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 16:41:43 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 16:41:43 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 16:41:43 - INFO - Inseridos 6258 registros!
+15/10/2025 16:41:43 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 16:41:43 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 16:41:43 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 16:41:43 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 16:41:43 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 16:41:43 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 16:41:45 - INFO - O foram processados 0 arquivos!
+15/10/2025 16:41:45 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 16:41:45 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 16:41:45 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:41:46 - INFO - O foram processados 0 arquivos!
+15/10/2025 16:41:46 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 16:41:46 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 16:41:46 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:41:48 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 16:41:48 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 16:41:50 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 16:41:50 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 16:43:59 - INFO - O Select retornou 27952 Transações!
+15/10/2025 16:43:59 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:44:01 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 16:44:01 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:44:01 - INFO - 27952 registros inseridos no SQLite com sucesso!
+15/10/2025 16:44:01 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:44:01 - INFO - CSV gerado com sucesso com 27952 registros!
+15/10/2025 16:44:01 - INFO - Current desativado em 2025-10-15
+15/10/2025 16:44:01 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 16:44:01 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 16:44:01 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 16:44:01 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 16:44:01 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 16:44:01 - INFO - Iniciando o reset do banco
+15/10/2025 16:44:02 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:44:02 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 16:44:04 - INFO - O retorno foi de 3129 linhas
+15/10/2025 16:44:04 - INFO - Iniciando o reset do banco
+15/10/2025 16:44:05 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:44:05 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:44:05 - INFO - Inseridos 3129 registros!
+15/10/2025 16:44:05 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:44:05 - INFO - Inseridos 3129 registros!
+15/10/2025 16:44:05 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 16:44:05 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 16:44:05 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 16:44:05 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 16:44:05 - INFO - Arquivo 30_12_2024.txt movido para pasta de backup | Data do arquivo: 30/12/2024 | Data corte: 10/10/2025
+15/10/2025 16:44:06 - INFO - Arquivo 31_12_2024.txt movido para pasta de backup | Data do arquivo: 31/12/2024 | Data corte: 10/10/2025
+15/10/2025 16:44:06 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_TRANSACAO!
+15/10/2025 16:44:06 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 16:44:06 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 16:44:06 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 16:44:19 - INFO - O Select retornou 27952 Transações!
+15/10/2025 16:44:19 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:44:20 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 16:44:20 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:44:21 - INFO - 27952 registros inseridos no SQLite com sucesso!
+15/10/2025 16:44:21 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:44:21 - INFO - CSV gerado com sucesso com 27952 registros!
+15/10/2025 16:44:21 - INFO - Current desativado em 2025-10-15
+15/10/2025 16:44:21 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 16:44:21 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 16:44:21 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 16:44:21 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 16:44:21 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 16:44:21 - INFO - Iniciando o reset do banco
+15/10/2025 16:44:23 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:44:23 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 16:44:24 - INFO - O retorno foi de 3129 linhas
+15/10/2025 16:44:24 - INFO - Iniciando o reset do banco
+15/10/2025 16:44:26 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:44:26 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:44:26 - INFO - Inseridos 3129 registros!
+15/10/2025 16:44:26 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:44:26 - INFO - Inseridos 3129 registros!
+15/10/2025 16:44:26 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 16:44:26 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 16:44:26 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 16:44:26 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 16:44:26 - INFO - Arquivo 31_12_2024.txt movido para pasta de backup | Data do arquivo: 31/12/2024 | Data corte: 10/10/2025
+15/10/2025 16:44:26 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_TRANSACAO!
+15/10/2025 16:44:26 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 16:44:26 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 16:44:26 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 16:47:24 - INFO - #-# Executando automação automática...
+15/10/2025 16:47:24 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 16:47:24 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 16:47:24 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 16:47:24 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:47:24 - INFO - Banco resetado resetado
+15/10/2025 16:47:24 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 16:47:41 - INFO - Total de autorizações 190174
+15/10/2025 16:47:41 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:47:41 - INFO - Banco resetado resetado
+15/10/2025 16:47:41 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:47:43 - INFO - Total de linhas adiconadas ao banco 190174
+15/10/2025 16:47:43 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:47:45 - INFO - Arquivo criado com 190174 registros
+15/10/2025 16:47:45 - INFO - Autorização gerada para 2025-10-14 com sucesso!
+15/10/2025 16:47:46 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 16:47:46 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 16:47:46 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 16:47:46 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 16:47:46 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 16:47:46 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 16:47:46 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 16:47:46 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 16:47:46 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 16:47:46 - INFO - Iniciando o reset do banco
+15/10/2025 16:47:47 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:47:47 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 16:47:48 - INFO - O retorno foi de 3129 linhas
+15/10/2025 16:47:48 - INFO - Iniciando o reset do banco
+15/10/2025 16:47:50 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:47:50 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:47:50 - INFO - Inseridos 3129 registros!
+15/10/2025 16:47:50 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:47:50 - INFO - Inseridos 3129 registros!
+15/10/2025 16:47:50 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 16:47:50 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 16:47:50 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 16:47:50 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 16:47:50 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 16:47:50 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 16:47:52 - INFO - O foram processados 0 arquivos!
+15/10/2025 16:47:52 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 16:47:52 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 16:47:52 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:47:53 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 16:47:53 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 16:50:13 - INFO - O Select retornou 40846 Transações!
+15/10/2025 16:50:13 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 16:50:14 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 16:50:14 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:50:14 - INFO - 40846 registros inseridos no SQLite com sucesso!
+15/10/2025 16:50:14 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:50:15 - INFO - CSV gerado com sucesso com 40846 registros!
+15/10/2025 16:50:15 - INFO - Current desativado em 2025-10-15
+15/10/2025 16:50:15 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 16:50:15 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 16:50:15 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 16:50:15 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 16:50:15 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 16:50:15 - INFO - Iniciando o reset do banco
+15/10/2025 16:50:16 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:50:16 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 16:50:17 - INFO - O retorno foi de 3129 linhas
+15/10/2025 16:50:17 - INFO - Iniciando o reset do banco
+15/10/2025 16:50:19 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:50:19 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:50:19 - INFO - Inseridos 3129 registros!
+15/10/2025 16:50:19 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:50:19 - INFO - Inseridos 3129 registros!
+15/10/2025 16:50:19 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 16:50:19 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 16:50:19 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 16:50:19 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 16:50:19 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 16:50:19 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 16:50:19 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 16:52:25 - INFO - #-# Executando automação automática...
+15/10/2025 16:52:25 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 16:52:25 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 16:52:25 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 16:52:25 - INFO - A transação para 2025-10-15 já foi gerada, nenhuma ação executada.
+15/10/2025 16:52:25 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 16:52:25 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 16:52:25 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 16:52:25 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 16:52:25 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 16:52:25 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 16:52:25 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 16:52:25 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 16:52:25 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 16:52:25 - INFO - Iniciando o reset do banco
+15/10/2025 16:52:26 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:52:26 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 16:52:27 - INFO - O retorno foi de 3129 linhas
+15/10/2025 16:52:27 - INFO - Iniciando o reset do banco
+15/10/2025 16:52:29 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:52:29 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:52:29 - INFO - Inseridos 3129 registros!
+15/10/2025 16:52:29 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:52:29 - INFO - Inseridos 3129 registros!
+15/10/2025 16:52:29 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 16:52:29 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 16:52:29 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 16:52:29 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 16:52:29 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 16:52:29 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 16:52:30 - INFO - O foram processados 0 arquivos!
+15/10/2025 16:52:30 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 16:52:30 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 16:52:30 - INFO - A transação para 2025-10-15 já foi gerada!
+15/10/2025 16:52:30 - INFO - Current desativado em 2025-10-15
+15/10/2025 16:52:30 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 16:52:30 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 16:52:30 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 16:52:30 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 16:52:30 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 16:52:30 - INFO - Iniciando o reset do banco
+15/10/2025 16:52:31 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:52:31 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 16:52:32 - INFO - O retorno foi de 3129 linhas
+15/10/2025 16:52:32 - INFO - Iniciando o reset do banco
+15/10/2025 16:52:34 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:52:34 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:52:34 - INFO - Inseridos 3129 registros!
+15/10/2025 16:52:34 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:52:34 - INFO - Inseridos 3129 registros!
+15/10/2025 16:52:34 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 16:52:34 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 16:52:34 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 16:52:34 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 16:52:34 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 16:52:34 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 16:52:34 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 16:57:28 - INFO - #-# Executando automação automática...
+15/10/2025 16:57:28 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 16:57:28 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 16:57:28 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 16:57:28 - INFO - A transação para 2025-10-15 já foi gerada, nenhuma ação executada.
+15/10/2025 16:57:28 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 16:57:28 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 16:57:28 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 16:57:28 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 16:57:28 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 16:57:28 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 16:57:28 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 16:57:28 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 16:57:28 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 16:57:28 - INFO - Iniciando o reset do banco
+15/10/2025 16:57:30 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:57:30 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 16:57:31 - INFO - O retorno foi de 3129 linhas
+15/10/2025 16:57:31 - INFO - Iniciando o reset do banco
+15/10/2025 16:57:32 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:57:32 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:57:32 - INFO - Inseridos 3129 registros!
+15/10/2025 16:57:32 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:57:32 - INFO - Inseridos 3129 registros!
+15/10/2025 16:57:32 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 16:57:32 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 16:57:32 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 16:57:32 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 16:57:32 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 16:57:32 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 16:57:34 - INFO - O foram processados 0 arquivos!
+15/10/2025 16:57:34 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 16:57:34 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 16:57:34 - INFO - A transação para 2025-10-15 já foi gerada!
+15/10/2025 16:57:34 - INFO - Current desativado em 2025-10-15
+15/10/2025 16:57:34 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 16:57:34 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 16:57:34 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 16:57:34 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 16:57:34 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 16:57:34 - INFO - Iniciando o reset do banco
+15/10/2025 16:57:35 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:57:35 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 16:57:36 - INFO - O retorno foi de 3129 linhas
+15/10/2025 16:57:36 - INFO - Iniciando o reset do banco
+15/10/2025 16:57:37 - INFO - Banco resetado SQLite resetado
+15/10/2025 16:57:37 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 16:57:38 - INFO - Inseridos 3129 registros!
+15/10/2025 16:57:38 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 16:57:38 - INFO - Inseridos 3129 registros!
+15/10/2025 16:57:38 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 16:57:38 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 16:57:38 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 16:57:38 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 16:57:38 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 16:57:38 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 16:57:38 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 17:00:16 - INFO - #-# Executando automação automática...
+15/10/2025 17:00:16 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 17:00:16 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 17:00:16 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 17:00:16 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:00:17 - INFO - Banco resetado resetado
+15/10/2025 17:00:17 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 17:00:34 - INFO - Total de autorizações 189159
+15/10/2025 17:00:34 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:00:35 - INFO - Banco resetado resetado
+15/10/2025 17:00:35 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:00:36 - INFO - Total de linhas adiconadas ao banco 189159
+15/10/2025 17:00:36 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:00:39 - INFO - Arquivo criado com 189159 registros
+15/10/2025 17:00:39 - INFO - Autorização gerada para 2025-07-01 com sucesso!
+15/10/2025 17:00:39 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 17:00:39 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 17:00:39 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 17:00:39 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 17:00:39 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 17:00:39 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 17:00:39 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 17:00:39 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 17:00:39 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 17:00:39 - INFO - Iniciando o reset do banco
+15/10/2025 17:00:40 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:00:41 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:00:48 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:00:48 - INFO - Iniciando o reset do banco
+15/10/2025 17:00:49 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:00:49 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:00:50 - INFO - Inseridos 3129 registros!
+15/10/2025 17:00:50 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:00:50 - INFO - Inseridos 3129 registros!
+15/10/2025 17:00:50 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 17:00:50 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 17:00:50 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 17:00:50 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 17:00:50 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 17:00:50 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 17:00:51 - INFO - O foram processados 0 arquivos!
+15/10/2025 17:00:51 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 17:00:51 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 17:00:51 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:00:53 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 17:00:53 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 17:02:58 - INFO - O Select retornou 34699 Transações!
+15/10/2025 17:02:58 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:02:59 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 17:02:59 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:02:59 - INFO - 34699 registros inseridos no SQLite com sucesso!
+15/10/2025 17:02:59 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:03:00 - INFO - CSV gerado com sucesso com 34699 registros!
+15/10/2025 17:03:00 - INFO - Current desativado em 2025-10-15
+15/10/2025 17:03:00 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 17:03:00 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 17:03:00 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 17:03:00 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 17:03:00 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 17:03:00 - INFO - Iniciando o reset do banco
+15/10/2025 17:03:01 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:03:01 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:03:08 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:03:08 - INFO - Iniciando o reset do banco
+15/10/2025 17:03:09 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:03:09 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:03:09 - INFO - Inseridos 3129 registros!
+15/10/2025 17:03:09 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:03:09 - INFO - Inseridos 3129 registros!
+15/10/2025 17:03:09 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 17:03:09 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 17:03:09 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 17:03:09 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 17:03:10 - INFO - Arquivo 30_06_2025.txt movido para pasta de backup | Data do arquivo: 30/06/2025 | Data corte: 10/10/2025
+15/10/2025 17:03:10 - INFO - Arquivo 01_07_2025.txt movido para pasta de backup | Data do arquivo: 01/07/2025 | Data corte: 10/10/2025
+15/10/2025 17:03:10 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_TRANSACAO!
+15/10/2025 17:03:10 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 17:03:10 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 17:03:10 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 17:07:22 - INFO - #-# Executando automação automática...
+15/10/2025 17:07:22 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 17:07:22 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 17:07:22 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 17:07:22 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:07:23 - INFO - Banco resetado resetado
+15/10/2025 17:07:23 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 17:07:42 - INFO - Total de autorizações 190174
+15/10/2025 17:07:42 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:07:42 - INFO - Banco resetado resetado
+15/10/2025 17:07:42 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:07:43 - INFO - Total de linhas adiconadas ao banco 190174
+15/10/2025 17:07:43 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:07:45 - INFO - Arquivo criado com 190174 registros
+15/10/2025 17:07:45 - INFO - Autorização gerada para 2025-10-14 com sucesso!
+15/10/2025 17:07:45 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 17:07:45 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 17:07:45 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 17:07:45 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 17:07:45 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 17:07:45 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 17:07:45 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 17:07:45 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 17:07:45 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 17:07:45 - INFO - Iniciando o reset do banco
+15/10/2025 17:07:46 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:07:46 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:07:56 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:07:56 - INFO - Iniciando o reset do banco
+15/10/2025 17:07:57 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:07:57 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:07:57 - INFO - Inseridos 3129 registros!
+15/10/2025 17:07:57 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:07:57 - INFO - Inseridos 3129 registros!
+15/10/2025 17:07:57 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 17:07:57 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 17:07:57 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 17:07:57 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 17:07:57 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 17:07:57 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 17:07:58 - INFO - O foram processados 0 arquivos!
+15/10/2025 17:07:58 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 17:07:58 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 17:07:58 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:07:59 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 17:07:59 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 17:10:00 - INFO - O Select retornou 40846 Transações!
+15/10/2025 17:10:00 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:10:01 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 17:10:01 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:10:01 - INFO - 40846 registros inseridos no SQLite com sucesso!
+15/10/2025 17:10:01 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:10:02 - INFO - CSV gerado com sucesso com 40846 registros!
+15/10/2025 17:10:02 - INFO - Current desativado em 2025-10-15
+15/10/2025 17:10:02 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 17:10:02 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 17:10:02 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 17:10:02 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 17:10:02 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 17:10:02 - INFO - Iniciando o reset do banco
+15/10/2025 17:10:03 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:10:03 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:10:10 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:10:10 - INFO - Iniciando o reset do banco
+15/10/2025 17:10:12 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:10:12 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:10:12 - INFO - Inseridos 3129 registros!
+15/10/2025 17:10:12 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:10:12 - INFO - Inseridos 3129 registros!
+15/10/2025 17:10:12 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 17:10:12 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 17:10:12 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 17:10:12 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 17:10:12 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 17:10:12 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 17:10:12 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 17:12:22 - INFO - #-# Executando automação automática...
+15/10/2025 17:12:22 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 17:12:22 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 17:12:22 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 17:12:22 - INFO - A transação para 2025-10-15 já foi gerada, nenhuma ação executada.
+15/10/2025 17:12:22 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 17:12:22 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 17:12:22 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 17:12:22 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 17:12:22 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 17:12:22 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 17:12:22 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 17:12:22 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 17:12:22 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 17:12:22 - INFO - Iniciando o reset do banco
+15/10/2025 17:12:23 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:12:23 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:12:31 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:12:31 - INFO - Iniciando o reset do banco
+15/10/2025 17:12:33 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:12:33 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:12:33 - INFO - Inseridos 3129 registros!
+15/10/2025 17:12:33 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:12:33 - INFO - Inseridos 3129 registros!
+15/10/2025 17:12:33 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 17:12:33 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 17:12:33 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 17:12:33 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 17:12:33 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 17:12:33 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 17:12:34 - INFO - O foram processados 0 arquivos!
+15/10/2025 17:12:34 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 17:12:34 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 17:12:34 - INFO - A transação para 2025-10-15 já foi gerada!
+15/10/2025 17:12:34 - INFO - Current desativado em 2025-10-15
+15/10/2025 17:12:34 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 17:12:34 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 17:12:34 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 17:12:34 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 17:12:34 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 17:12:34 - INFO - Iniciando o reset do banco
+15/10/2025 17:12:35 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:12:35 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:12:37 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:12:37 - INFO - Iniciando o reset do banco
+15/10/2025 17:12:38 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:12:38 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:12:38 - INFO - Inseridos 3129 registros!
+15/10/2025 17:12:38 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:12:38 - INFO - Inseridos 3129 registros!
+15/10/2025 17:12:38 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 17:12:38 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 17:12:38 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 17:12:38 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 17:12:38 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 17:12:38 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 17:12:38 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 17:17:24 - INFO - #-# Executando automação automática...
+15/10/2025 17:17:24 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 17:17:24 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 17:17:24 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 17:17:24 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:17:24 - INFO - Banco resetado resetado
+15/10/2025 17:17:24 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 17:17:42 - INFO - Total de autorizações 191285
+15/10/2025 17:17:42 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:17:42 - INFO - Banco resetado resetado
+15/10/2025 17:17:42 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:17:43 - INFO - Total de linhas adiconadas ao banco 191285
+15/10/2025 17:17:43 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:17:45 - INFO - Arquivo criado com 191285 registros
+15/10/2025 17:17:45 - INFO - Autorização gerada para 2025-07-02 com sucesso!
+15/10/2025 17:17:45 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 17:17:45 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 17:17:45 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 17:17:45 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 17:17:45 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 17:17:45 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 17:17:45 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 17:17:45 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 17:17:45 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 17:17:45 - INFO - Iniciando o reset do banco
+15/10/2025 17:17:46 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:17:46 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:17:48 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:17:48 - INFO - Iniciando o reset do banco
+15/10/2025 17:17:49 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:17:49 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:17:49 - INFO - Inseridos 3129 registros!
+15/10/2025 17:17:49 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:17:49 - INFO - Inseridos 3129 registros!
+15/10/2025 17:17:49 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 17:17:49 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 17:17:49 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 17:17:49 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 17:17:49 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 17:17:49 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 17:17:50 - INFO - O foram processados 0 arquivos!
+15/10/2025 17:17:50 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 17:17:50 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 17:17:50 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:17:52 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 17:17:52 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 17:20:49 - INFO - O Select retornou 36116 Transações!
+15/10/2025 17:20:49 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:20:49 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 17:20:49 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:20:49 - INFO - 36116 registros inseridos no SQLite com sucesso!
+15/10/2025 17:20:49 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:20:50 - INFO - CSV gerado com sucesso com 36116 registros!
+15/10/2025 17:20:50 - INFO - Current desativado em 2025-10-15
+15/10/2025 17:20:50 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 17:20:50 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 17:20:50 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 17:20:50 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 17:20:50 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 17:20:50 - INFO - Iniciando o reset do banco
+15/10/2025 17:20:51 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:20:51 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:20:59 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:20:59 - INFO - Iniciando o reset do banco
+15/10/2025 17:21:00 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:21:00 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:21:00 - INFO - Inseridos 3129 registros!
+15/10/2025 17:21:00 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:21:00 - INFO - Inseridos 3129 registros!
+15/10/2025 17:21:00 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 17:21:00 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 17:21:00 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 17:21:00 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 17:21:00 - INFO - Arquivo 01_07_2025.txt movido para pasta de backup | Data do arquivo: 01/07/2025 | Data corte: 10/10/2025
+15/10/2025 17:21:00 - INFO - Arquivo 02_07_2025.txt movido para pasta de backup | Data do arquivo: 02/07/2025 | Data corte: 10/10/2025
+15/10/2025 17:21:00 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_TRANSACAO!
+15/10/2025 17:21:00 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 17:21:00 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 17:21:00 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 17:22:23 - INFO - #-# Executando automação automática...
+15/10/2025 17:22:23 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 17:22:23 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 17:22:23 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 17:22:23 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:22:23 - INFO - Banco resetado resetado
+15/10/2025 17:22:23 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 17:22:41 - INFO - Total de autorizações 190174
+15/10/2025 17:22:41 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:22:41 - INFO - Banco resetado resetado
+15/10/2025 17:22:41 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:22:42 - INFO - Total de linhas adiconadas ao banco 190174
+15/10/2025 17:22:42 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:22:45 - INFO - Arquivo criado com 190174 registros
+15/10/2025 17:22:45 - INFO - Autorização gerada para 2025-10-14 com sucesso!
+15/10/2025 17:22:45 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 17:22:45 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 17:22:45 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 17:22:45 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 17:22:45 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 17:22:45 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 17:22:45 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 17:22:45 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 17:22:45 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 17:22:45 - INFO - Iniciando o reset do banco
+15/10/2025 17:22:46 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:22:46 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:22:55 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:22:55 - INFO - Iniciando o reset do banco
+15/10/2025 17:22:56 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:22:56 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:22:56 - INFO - Inseridos 3129 registros!
+15/10/2025 17:22:56 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:22:56 - INFO - Inseridos 3129 registros!
+15/10/2025 17:22:56 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 17:22:56 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 17:22:56 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 17:22:56 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 17:22:56 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 17:22:56 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 17:22:58 - INFO - O foram processados 0 arquivos!
+15/10/2025 17:22:58 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 17:22:58 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 17:22:58 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:22:59 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 17:22:59 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 17:26:18 - INFO - O Select retornou 40846 Transações!
+15/10/2025 17:26:18 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 17:26:21 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 17:26:21 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:26:21 - INFO - 40846 registros inseridos no SQLite com sucesso!
+15/10/2025 17:26:21 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:26:22 - INFO - CSV gerado com sucesso com 40846 registros!
+15/10/2025 17:26:22 - INFO - Current desativado em 2025-10-15
+15/10/2025 17:26:22 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 17:26:22 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 17:26:22 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 17:26:22 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 17:26:22 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 17:26:22 - INFO - Iniciando o reset do banco
+15/10/2025 17:26:23 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:26:23 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:26:32 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:26:32 - INFO - Iniciando o reset do banco
+15/10/2025 17:26:33 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:26:33 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:26:33 - INFO - Inseridos 3129 registros!
+15/10/2025 17:26:33 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:26:33 - INFO - Inseridos 3129 registros!
+15/10/2025 17:26:33 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 17:26:33 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 17:26:33 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 17:26:33 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 17:26:33 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 17:26:33 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 17:26:33 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 17:27:28 - INFO - #-# Executando automação automática...
+15/10/2025 17:27:28 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 17:27:28 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 17:27:28 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 17:27:28 - INFO - A transação para 2025-10-15 já foi gerada, nenhuma ação executada.
+15/10/2025 17:27:28 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 17:27:28 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 17:27:28 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 17:27:28 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 17:27:28 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 17:27:28 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 17:27:28 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 17:27:28 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 17:27:28 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 17:27:28 - INFO - Iniciando o reset do banco
+15/10/2025 17:27:29 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:27:29 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:27:30 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:27:30 - INFO - Iniciando o reset do banco
+15/10/2025 17:27:31 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:27:31 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:27:31 - INFO - Inseridos 3129 registros!
+15/10/2025 17:27:31 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:27:31 - INFO - Inseridos 3129 registros!
+15/10/2025 17:27:31 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 17:27:31 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 17:27:31 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 17:27:31 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 17:27:31 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 17:27:31 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 17:27:33 - INFO - O foram processados 0 arquivos!
+15/10/2025 17:27:33 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 17:27:33 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 17:27:33 - INFO - A transação para 2025-10-15 já foi gerada!
+15/10/2025 17:27:33 - INFO - Current desativado em 2025-10-15
+15/10/2025 17:27:33 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 17:27:33 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 17:27:33 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 17:27:33 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 17:27:33 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 17:27:33 - INFO - Iniciando o reset do banco
+15/10/2025 17:27:34 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:27:34 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:27:35 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:27:35 - INFO - Iniciando o reset do banco
+15/10/2025 17:27:36 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:27:36 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:27:36 - INFO - Inseridos 3129 registros!
+15/10/2025 17:27:36 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:27:36 - INFO - Inseridos 3129 registros!
+15/10/2025 17:27:36 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 17:27:36 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 17:27:36 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 17:27:36 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 17:27:36 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 17:27:36 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 17:27:36 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 17:32:29 - INFO - #-# Executando automação automática...
+15/10/2025 17:32:29 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 17:32:29 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 17:32:29 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 17:32:29 - INFO - A transação para 2025-10-15 já foi gerada, nenhuma ação executada.
+15/10/2025 17:32:29 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 17:32:29 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 17:32:29 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 17:32:29 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 17:32:29 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 17:32:29 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 17:32:29 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 17:32:29 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 17:32:29 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 17:32:29 - INFO - Iniciando o reset do banco
+15/10/2025 17:32:30 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:32:30 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:32:32 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:32:32 - INFO - Iniciando o reset do banco
+15/10/2025 17:32:33 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:32:33 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:32:33 - INFO - Inseridos 3129 registros!
+15/10/2025 17:32:33 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:32:33 - INFO - Inseridos 3129 registros!
+15/10/2025 17:32:33 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 17:32:33 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 17:32:33 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 17:32:33 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 17:32:33 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 17:32:33 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 17:32:35 - INFO - O foram processados 0 arquivos!
+15/10/2025 17:32:35 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 17:32:35 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 17:32:35 - INFO - A transação para 2025-10-15 já foi gerada!
+15/10/2025 17:32:35 - INFO - Current desativado em 2025-10-15
+15/10/2025 17:32:35 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 17:32:35 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 17:32:35 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 17:32:35 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 17:32:35 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 17:32:35 - INFO - Iniciando o reset do banco
+15/10/2025 17:32:36 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:32:36 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:32:38 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:32:38 - INFO - Iniciando o reset do banco
+15/10/2025 17:32:40 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:32:40 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:32:40 - INFO - Inseridos 3129 registros!
+15/10/2025 17:32:40 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:32:40 - INFO - Inseridos 3129 registros!
+15/10/2025 17:32:40 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 17:32:40 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 17:32:40 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 17:32:40 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 17:32:40 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 17:32:40 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 17:32:40 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 17:37:25 - INFO - #-# Executando automação automática...
+15/10/2025 17:37:25 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 17:37:25 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 17:37:25 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 17:37:25 - INFO - A transação para 2025-10-15 já foi gerada, nenhuma ação executada.
+15/10/2025 17:37:25 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 17:37:25 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 17:37:25 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 17:37:25 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 17:37:25 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 17:37:25 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 17:37:25 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 17:37:25 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 17:37:25 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 17:37:25 - INFO - Iniciando o reset do banco
+15/10/2025 17:37:27 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:37:27 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:37:34 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:37:34 - INFO - Iniciando o reset do banco
+15/10/2025 17:37:36 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:37:36 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:37:36 - INFO - Inseridos 3129 registros!
+15/10/2025 17:37:36 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:37:36 - INFO - Inseridos 3129 registros!
+15/10/2025 17:37:36 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 17:37:36 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 17:37:36 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 17:37:36 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 17:37:36 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 17:37:36 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 17:37:38 - INFO - O foram processados 0 arquivos!
+15/10/2025 17:37:38 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 17:37:38 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 17:37:38 - INFO - A transação para 2025-10-15 já foi gerada!
+15/10/2025 17:37:38 - INFO - Current desativado em 2025-10-15
+15/10/2025 17:37:38 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 17:37:38 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 17:37:38 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 17:37:38 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 17:37:38 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 17:37:38 - INFO - Iniciando o reset do banco
+15/10/2025 17:37:40 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:37:40 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:37:41 - INFO - O retorno foi de 3129 linhas
+15/10/2025 17:37:41 - INFO - Iniciando o reset do banco
+15/10/2025 17:37:43 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:37:43 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:37:43 - INFO - Inseridos 3129 registros!
+15/10/2025 17:37:43 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:37:43 - INFO - Inseridos 3129 registros!
+15/10/2025 17:37:43 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 17:37:43 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 17:37:43 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 17:37:43 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 17:37:43 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 17:37:43 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 17:37:43 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 17:42:25 - INFO - #-# Executando automação automática...
+15/10/2025 17:42:25 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 17:42:25 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 17:42:25 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 17:42:25 - INFO - A transação para 2025-10-15 já foi gerada, nenhuma ação executada.
+15/10/2025 17:42:25 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 17:42:25 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 17:42:25 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 17:42:25 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 17:42:25 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 17:42:25 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 17:42:25 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 17:42:25 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 17:42:25 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 17:42:25 - INFO - Iniciando o reset do banco
+15/10/2025 17:42:26 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:42:26 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:42:31 - INFO - O retorno foi de 3130 linhas
+15/10/2025 17:42:31 - INFO - Iniciando o reset do banco
+15/10/2025 17:42:32 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:42:32 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:42:32 - INFO - Inseridos 3130 registros!
+15/10/2025 17:42:32 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:42:32 - INFO - Inseridos 3130 registros!
+15/10/2025 17:42:32 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 17:42:32 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 17:42:32 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 17:42:32 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 17:42:32 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 17:42:32 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 17:42:34 - INFO - O foram processados 0 arquivos!
+15/10/2025 17:42:34 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 17:42:34 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 17:42:34 - INFO - A transação para 2025-10-15 já foi gerada!
+15/10/2025 17:42:34 - INFO - Current desativado em 2025-10-15
+15/10/2025 17:42:34 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 17:42:34 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 17:42:34 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 17:42:34 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 17:42:34 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 17:42:34 - INFO - Iniciando o reset do banco
+15/10/2025 17:42:35 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:42:35 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:42:37 - INFO - O retorno foi de 3130 linhas
+15/10/2025 17:42:37 - INFO - Iniciando o reset do banco
+15/10/2025 17:42:38 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:42:38 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:42:38 - INFO - Inseridos 3130 registros!
+15/10/2025 17:42:38 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:42:38 - INFO - Inseridos 3130 registros!
+15/10/2025 17:42:38 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 17:42:38 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 17:42:38 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 17:42:38 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 17:42:38 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 17:42:38 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 17:42:38 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 17:47:27 - INFO - #-# Executando automação automática...
+15/10/2025 17:47:27 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 17:47:27 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 17:47:27 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 17:47:27 - INFO - A transação para 2025-10-15 já foi gerada, nenhuma ação executada.
+15/10/2025 17:47:27 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 17:47:27 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 17:47:27 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 17:47:27 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 17:47:27 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 17:47:27 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 17:47:27 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 17:47:27 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 17:47:27 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 17:47:27 - INFO - Iniciando o reset do banco
+15/10/2025 17:47:30 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:47:30 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:47:31 - INFO - O retorno foi de 3130 linhas
+15/10/2025 17:47:31 - INFO - Iniciando o reset do banco
+15/10/2025 17:47:33 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:47:33 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:47:33 - INFO - Inseridos 3130 registros!
+15/10/2025 17:47:33 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:47:33 - INFO - Inseridos 3130 registros!
+15/10/2025 17:47:33 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 17:47:33 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 17:47:33 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 17:47:33 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 17:47:33 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 17:47:33 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 17:47:34 - INFO - O foram processados 0 arquivos!
+15/10/2025 17:47:34 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 17:47:34 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 17:47:34 - INFO - A transação para 2025-10-15 já foi gerada!
+15/10/2025 17:47:34 - INFO - Current desativado em 2025-10-15
+15/10/2025 17:47:34 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 17:47:34 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 17:47:34 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 17:47:34 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 17:47:34 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 17:47:34 - INFO - Iniciando o reset do banco
+15/10/2025 17:47:36 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:47:36 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 17:47:38 - INFO - O retorno foi de 3130 linhas
+15/10/2025 17:47:38 - INFO - Iniciando o reset do banco
+15/10/2025 17:47:40 - INFO - Banco resetado SQLite resetado
+15/10/2025 17:47:40 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 17:47:40 - INFO - Inseridos 3130 registros!
+15/10/2025 17:47:40 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 17:47:40 - INFO - Inseridos 3130 registros!
+15/10/2025 17:47:40 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 17:47:40 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 17:47:40 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 17:47:40 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 17:47:40 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 17:47:40 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 17:47:40 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 18:21:07 - INFO - #-# Executando automação automática...
+15/10/2025 18:21:07 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 18:21:07 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 18:21:07 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 18:21:07 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 18:21:07 - INFO - Banco resetado resetado
+15/10/2025 18:21:07 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 18:21:35 - INFO - Total de autorizações 193747
+15/10/2025 18:21:35 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 18:21:35 - INFO - Banco resetado resetado
+15/10/2025 18:21:36 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 18:21:38 - INFO - Total de linhas adiconadas ao banco 193747
+15/10/2025 18:21:38 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 18:21:42 - INFO - Arquivo criado com 193747 registros
+15/10/2025 18:21:42 - INFO - Autorização gerada para 2025-07-03 com sucesso!
+15/10/2025 18:21:42 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 18:21:42 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 18:21:42 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 18:21:42 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 18:21:42 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 18:21:42 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 18:21:42 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 18:21:42 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 18:21:42 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 18:21:42 - INFO - Iniciando o reset do banco
+15/10/2025 18:21:44 - INFO - Banco resetado SQLite resetado
+15/10/2025 18:21:44 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 18:21:46 - INFO - O retorno foi de 3130 linhas
+15/10/2025 18:21:46 - INFO - Iniciando o reset do banco
+15/10/2025 18:21:48 - INFO - Banco resetado SQLite resetado
+15/10/2025 18:21:48 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 18:21:48 - INFO - Inseridos 3130 registros!
+15/10/2025 18:21:48 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 18:21:48 - INFO - Inseridos 3130 registros!
+15/10/2025 18:21:48 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 18:21:48 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 18:21:48 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 18:21:48 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 18:21:48 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 18:21:48 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 18:21:48 - INFO - O foram processados 0 arquivos!
+15/10/2025 18:21:48 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 18:21:48 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 18:21:48 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 18:21:50 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 18:21:50 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 18:24:13 - INFO - O Select retornou 37592 Transações!
+15/10/2025 18:24:13 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 18:24:13 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 18:24:13 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 18:24:14 - INFO - 37592 registros inseridos no SQLite com sucesso!
+15/10/2025 18:24:14 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 18:24:14 - INFO - CSV gerado com sucesso com 37592 registros!
+15/10/2025 18:24:14 - INFO - Current desativado em 2025-10-15
+15/10/2025 18:24:14 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 18:24:14 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 18:24:14 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 18:24:14 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 18:24:14 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 18:24:14 - INFO - Iniciando o reset do banco
+15/10/2025 18:24:15 - INFO - Banco resetado SQLite resetado
+15/10/2025 18:24:15 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 18:24:16 - INFO - O retorno foi de 3130 linhas
+15/10/2025 18:24:16 - INFO - Iniciando o reset do banco
+15/10/2025 18:24:17 - INFO - Banco resetado SQLite resetado
+15/10/2025 18:24:17 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 18:24:17 - INFO - Inseridos 3130 registros!
+15/10/2025 18:24:17 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 18:24:17 - INFO - Inseridos 3130 registros!
+15/10/2025 18:24:17 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 18:24:17 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 18:24:17 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 18:24:17 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 18:24:17 - INFO - Arquivo 01_07_2025.txt movido para pasta de backup | Data do arquivo: 01/07/2025 | Data corte: 10/10/2025
+15/10/2025 18:24:17 - INFO - Arquivo 02_07_2025.txt movido para pasta de backup | Data do arquivo: 02/07/2025 | Data corte: 10/10/2025
+15/10/2025 18:24:17 - INFO - Arquivo 03_07_2025.txt movido para pasta de backup | Data do arquivo: 03/07/2025 | Data corte: 10/10/2025
+15/10/2025 18:24:17 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_TRANSACAO!
+15/10/2025 18:24:17 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 18:24:17 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 18:24:17 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 23:18:26 - INFO - #-# Executando automação automática...
+15/10/2025 23:18:26 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 23:18:26 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 23:18:26 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 23:18:26 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:18:26 - INFO - Banco resetado resetado
+15/10/2025 23:18:26 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 23:19:32 - INFO - Total de autorizações 213090
+15/10/2025 23:19:32 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:19:32 - INFO - Banco resetado resetado
+15/10/2025 23:19:32 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:19:33 - INFO - Total de linhas adiconadas ao banco 213090
+15/10/2025 23:19:33 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:19:35 - INFO - Arquivo criado com 213090 registros
+15/10/2025 23:19:35 - INFO - Autorização gerada para 2025-07-04 com sucesso!
+15/10/2025 23:19:35 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 23:19:35 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 23:19:35 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 23:19:35 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 23:19:35 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 23:19:35 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 23:19:35 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 23:19:35 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 23:19:35 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 23:19:35 - INFO - Iniciando o reset do banco
+15/10/2025 23:19:36 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:19:36 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 23:19:43 - INFO - O retorno foi de 3132 linhas
+15/10/2025 23:19:43 - INFO - Iniciando o reset do banco
+15/10/2025 23:19:44 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:19:44 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:19:44 - INFO - Inseridos 3132 registros!
+15/10/2025 23:19:44 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:19:44 - INFO - Inseridos 3132 registros!
+15/10/2025 23:19:44 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 23:19:44 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 23:19:44 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 23:19:44 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 23:19:44 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 23:19:44 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 23:19:44 - INFO - O foram processados 0 arquivos!
+15/10/2025 23:19:44 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 23:19:44 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 23:19:44 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:19:45 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 23:19:45 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 23:21:37 - INFO - O Select retornou 41087 Transações!
+15/10/2025 23:21:37 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:21:38 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 23:21:38 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:21:38 - INFO - 41087 registros inseridos no SQLite com sucesso!
+15/10/2025 23:21:38 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:21:38 - INFO - CSV gerado com sucesso com 41087 registros!
+15/10/2025 23:21:38 - INFO - Current desativado em 2025-10-15
+15/10/2025 23:21:38 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 23:21:38 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 23:21:38 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 23:21:38 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 23:21:38 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 23:21:38 - INFO - Iniciando o reset do banco
+15/10/2025 23:21:39 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:21:39 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 23:21:47 - INFO - O retorno foi de 3132 linhas
+15/10/2025 23:21:47 - INFO - Iniciando o reset do banco
+15/10/2025 23:21:48 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:21:48 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:21:48 - INFO - Inseridos 3132 registros!
+15/10/2025 23:21:48 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:21:48 - INFO - Inseridos 3132 registros!
+15/10/2025 23:21:48 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 23:21:48 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 23:21:48 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 23:21:48 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 23:21:48 - INFO - Arquivo 01_07_2025.txt movido para pasta de backup | Data do arquivo: 01/07/2025 | Data corte: 10/10/2025
+15/10/2025 23:21:48 - INFO - Arquivo 02_07_2025.txt movido para pasta de backup | Data do arquivo: 02/07/2025 | Data corte: 10/10/2025
+15/10/2025 23:21:48 - INFO - Arquivo 03_07_2025.txt movido para pasta de backup | Data do arquivo: 03/07/2025 | Data corte: 10/10/2025
+15/10/2025 23:21:48 - INFO - Arquivo 04_07_2025.txt movido para pasta de backup | Data do arquivo: 04/07/2025 | Data corte: 10/10/2025
+15/10/2025 23:21:49 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_TRANSACAO!
+15/10/2025 23:21:49 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 23:21:49 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 23:21:49 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 23:26:19 - INFO - #-# Executando automação automática...
+15/10/2025 23:26:19 - INFO - Parada ativada, pulando rotina de limpeza!
+15/10/2025 23:26:19 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 23:26:19 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:26:19 - INFO - Banco resetado resetado
+15/10/2025 23:26:19 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 23:26:37 - INFO - Total de autorizações 204882
+15/10/2025 23:26:37 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:26:37 - INFO - Banco resetado resetado
+15/10/2025 23:26:37 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:26:38 - INFO - Total de linhas adiconadas ao banco 204882
+15/10/2025 23:26:38 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:26:40 - INFO - Arquivo criado com 204882 registros
+15/10/2025 23:26:40 - INFO - Autorização gerada para 2025-07-05 com sucesso!
+15/10/2025 23:26:40 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 23:26:40 - INFO - Parada ativada, pulando rotina de expurgo de autorizações!
+15/10/2025 23:26:40 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 23:26:40 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 23:26:40 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 23:26:40 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 23:26:40 - INFO - Parada ativada, pulando rotina de autorizações Max!
+15/10/2025 23:26:40 - INFO - Parada ativada, pulando rotina de expurgo de domingo!
+15/10/2025 23:26:40 - INFO - Parada ativada, pulando rotina de consolidação de arquivos!
+15/10/2025 23:26:40 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 23:26:40 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:26:40 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 23:26:40 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 23:28:22 - INFO - O Select retornou 40283 Transações!
+15/10/2025 23:28:22 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:28:22 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 23:28:22 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:28:22 - INFO - 40283 registros inseridos no SQLite com sucesso!
+15/10/2025 23:28:22 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:28:23 - INFO - CSV gerado com sucesso com 40283 registros!
+15/10/2025 23:28:23 - INFO - Current desativado em 2025-10-15
+15/10/2025 23:28:23 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 23:28:23 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 23:28:23 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 23:28:23 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 23:28:23 - INFO - Parada ativada, pulando rotina de Transações Max!
+15/10/2025 23:28:23 - INFO - Parada ativada, pulando rotina de BKP de arquivos!
+15/10/2025 23:28:23 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 23:31:04 - INFO - #-# Executando automação automática...
+15/10/2025 23:31:04 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 23:31:04 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 23:31:04 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 23:31:04 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:31:04 - INFO - Banco resetado resetado
+15/10/2025 23:31:04 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 23:31:18 - INFO - Total de autorizações 163345
+15/10/2025 23:31:18 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:31:18 - INFO - Banco resetado resetado
+15/10/2025 23:31:18 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:31:19 - INFO - Total de linhas adiconadas ao banco 163345
+15/10/2025 23:31:19 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:31:20 - INFO - Arquivo criado com 163345 registros
+15/10/2025 23:31:20 - INFO - Autorização gerada para 2025-07-06 com sucesso!
+15/10/2025 23:31:20 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 23:31:20 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 23:31:20 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 23:31:20 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 23:31:20 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 23:31:20 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 23:31:20 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 23:31:20 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 23:31:20 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 23:31:20 - INFO - Iniciando o reset do banco
+15/10/2025 23:31:21 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:31:21 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 23:31:31 - INFO - O retorno foi de 3132 linhas
+15/10/2025 23:31:31 - INFO - Iniciando o reset do banco
+15/10/2025 23:31:32 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:31:32 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:31:32 - INFO - Inseridos 3132 registros!
+15/10/2025 23:31:32 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:31:32 - INFO - Inseridos 3132 registros!
+15/10/2025 23:31:32 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 23:31:32 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 23:31:32 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 23:31:32 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 23:31:32 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 23:31:32 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 23:31:34 - INFO - O foram processados 0 arquivos!
+15/10/2025 23:31:34 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 23:31:34 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 23:31:34 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:31:35 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 23:31:35 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 23:34:15 - INFO - O Select retornou 31087 Transações!
+15/10/2025 23:34:15 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:34:16 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 23:34:16 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:34:16 - INFO - 31087 registros inseridos no SQLite com sucesso!
+15/10/2025 23:34:16 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:34:16 - INFO - CSV gerado com sucesso com 31087 registros!
+15/10/2025 23:34:16 - INFO - Current desativado em 2025-10-15
+15/10/2025 23:34:16 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 23:34:16 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 23:34:16 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 23:34:16 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 23:34:16 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 23:34:16 - INFO - Iniciando o reset do banco
+15/10/2025 23:34:17 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:34:17 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 23:34:18 - INFO - O retorno foi de 3132 linhas
+15/10/2025 23:34:18 - INFO - Iniciando o reset do banco
+15/10/2025 23:34:19 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:34:19 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:34:19 - INFO - Inseridos 3132 registros!
+15/10/2025 23:34:19 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:34:19 - INFO - Inseridos 3132 registros!
+15/10/2025 23:34:19 - INFO - #- Termino da geração do arquivo de Transações Max!
+15/10/2025 23:34:19 - INFO - #-# Iniciando a rotina de BKP de arquivos...
+15/10/2025 23:34:19 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_OPC!
+15/10/2025 23:34:19 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_D_CRITICAL!
+15/10/2025 23:34:19 - INFO - Arquivo 01_07_2025.txt movido para pasta de backup | Data do arquivo: 01/07/2025 | Data corte: 10/10/2025
+15/10/2025 23:34:19 - INFO - Arquivo 02_07_2025.txt movido para pasta de backup | Data do arquivo: 02/07/2025 | Data corte: 10/10/2025
+15/10/2025 23:34:19 - INFO - Arquivo 03_07_2025.txt movido para pasta de backup | Data do arquivo: 03/07/2025 | Data corte: 10/10/2025
+15/10/2025 23:34:19 - INFO - Arquivo 04_07_2025.txt movido para pasta de backup | Data do arquivo: 04/07/2025 | Data corte: 10/10/2025
+15/10/2025 23:34:19 - INFO - Arquivo 05_07_2025.txt movido para pasta de backup | Data do arquivo: 05/07/2025 | Data corte: 10/10/2025
+15/10/2025 23:34:20 - INFO - Arquivo 06_07_2025.txt movido para pasta de backup | Data do arquivo: 06/07/2025 | Data corte: 10/10/2025
+15/10/2025 23:34:20 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_TRANSACAO!
+15/10/2025 23:34:20 - INFO - Não arquivos para movimentar em C:\script\amb_dv\RP_AUTORIZA_ABONO!
+15/10/2025 23:34:20 - INFO - #- Termino da rotina de BKP de arquivos!
+15/10/2025 23:34:20 - INFO - #-# Automação automática concluída com sucesso!
+15/10/2025 23:37:21 - INFO - #-# Executando automação automática...
+15/10/2025 23:37:21 - INFO - #-# Verificando pasta base do projeto...
+15/10/2025 23:37:21 - INFO - #- Termino da rotina da pasta base do projeto!
+15/10/2025 23:37:21 - INFO - #-# Iniciando a geração dos dados de autorizações...
+15/10/2025 23:37:21 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:37:21 - INFO - Banco resetado resetado
+15/10/2025 23:37:21 - INFO - # Iniciado o select no Oracle para Autorizações!
+15/10/2025 23:37:38 - INFO - Total de autorizações 190174
+15/10/2025 23:37:38 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:37:38 - INFO - Banco resetado resetado
+15/10/2025 23:37:38 - INFO - # Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:37:39 - INFO - Total de linhas adiconadas ao banco 190174
+15/10/2025 23:37:39 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:37:41 - INFO - Arquivo criado com 190174 registros
+15/10/2025 23:37:41 - INFO - Autorização gerada para 2025-10-14 com sucesso!
+15/10/2025 23:37:41 - INFO - #- Termino da geração do arquivo de autorizações!
+15/10/2025 23:37:41 - INFO - #-# Iniciando a geração dos dados de expurgo de autorizações...
+15/10/2025 23:37:41 - INFO - O expurgo de autorização para 2025-10-13 já foi gerada!
+15/10/2025 23:37:41 - INFO - #- Termino da geração do arquivo de expurgo de autorizações!
+15/10/2025 23:37:41 - INFO - #-# Iniciando a geração dos dados de autorizações Tivit...
+15/10/2025 23:37:41 - INFO - Iniciando a geração de Autorizção Tivit
+15/10/2025 23:37:41 - INFO - Nenhum arquivo encontrado para a data 23_09_2025. Nenhum CSV gerado.
+15/10/2025 23:37:41 - INFO - #- Termino da geração do arquivo de autorizações Tivit!
+15/10/2025 23:37:41 - INFO - #-# Iniciando a geração dos dados de autorizações Max...
+15/10/2025 23:37:41 - INFO - Iniciando o reset do banco
+15/10/2025 23:37:41 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:37:41 - INFO - Iniciado o select no Oracle para Aut Max!
+15/10/2025 23:37:50 - INFO - O retorno foi de 3132 linhas
+15/10/2025 23:37:50 - INFO - Iniciando o reset do banco
+15/10/2025 23:37:51 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:37:51 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:37:51 - INFO - Inseridos 3132 registros!
+15/10/2025 23:37:51 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:37:51 - INFO - Inseridos 3132 registros!
+15/10/2025 23:37:51 - INFO - #- Termino da geração do arquivo de autorizações Max!
+15/10/2025 23:37:51 - INFO - #-# Iniciando a geração dos dados de expurgo de domingo...
+15/10/2025 23:37:51 - INFO - Validando a data de Execução no banco SQL!
+15/10/2025 23:37:51 - INFO - A rotina não executará hoje, programado para Segunda!
+15/10/2025 23:37:51 - INFO - #- Termino da geração do arquivo de expurgo de domingo!
+15/10/2025 23:37:51 - INFO - #-# Iniciando a rotina de consolidação de arquivos...
+15/10/2025 23:37:52 - INFO - O foram processados 0 arquivos!
+15/10/2025 23:37:52 - INFO - #- Termino da rotina de consolidação de arqquivos!
+15/10/2025 23:37:52 - INFO - #-# Iniciando a geração dos dados de Transações...
+15/10/2025 23:37:52 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:37:52 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 23:37:52 - INFO - Iniciado o select no Oracle para Transações!
+15/10/2025 23:40:35 - INFO - O Select retornou 40847 Transações!
+15/10/2025 23:40:35 - INFO - Iniciando o reset do banco SQL para autorizações!
+15/10/2025 23:40:36 - INFO - Banco resetado SQLite resetado para Transações
+15/10/2025 23:40:36 - INFO - Iniciado a Insersão no banco de dados SQL!
+15/10/2025 23:40:38 - INFO - 40847 registros inseridos no SQLite com sucesso!
+15/10/2025 23:40:38 - INFO - Iniciado a geração do CSV/TXT!
+15/10/2025 23:40:39 - INFO - CSV gerado com sucesso com 40847 registros!
+15/10/2025 23:40:39 - INFO - Current desativado em 2025-10-15
+15/10/2025 23:40:39 - INFO - #- Termino da geração do arquivo de Transações!
+15/10/2025 23:40:39 - INFO - #-# Iniciando a geração dos dados de Transações Tivit...
+15/10/2025 23:40:39 - INFO - Iniciando a geração do arquivo Tivit de Transação
+15/10/2025 23:40:39 - INFO - #- Termino da geração do arquivo de Transações Tivit!
+15/10/2025 23:40:39 - INFO - #-# Iniciando a geração dos dados de Transações Max...
+15/10/2025 23:40:39 - INFO - Iniciando o reset do banco
+15/10/2025 23:40:42 - INFO - Banco resetado SQLite resetado
+15/10/2025 23:40:42 - INFO - Iniciado o select no Oracle para Aut Max!

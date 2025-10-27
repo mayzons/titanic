@@ -5,4 +5,4 @@ pyinstaller --name="Rotina_assets" --noconfirm --onefile --icon="assets/icone.ic
 pyinstaller --name="Titanic" --noconfirm --onefile --icon="assets/icone.ico" --version-file="assets/version_info.txt" --noconsole --clean --log-level=WARN --hidden-import=cx_Oracle runner.py 
 
 
-pyinstaller --name="Titanic" --noconfirm --onefile --icon="assets/icone.ico" --version-file="assets/version_info.txt" --noconsole --clean --log-level=WARN --hidden-import=cx_Oracle runner.py    
+pyinstaller --name="Titanic" --noconfirm --onefile --icon="assets/icone.ico" --version-file="assets/version_info.txt" --noconsole --clean --log-level=WARN --hidden-import=cx_Oracle --add-data "utils\\Config.json;utils" runner.py

@@ -12,6 +12,7 @@ from transacao_tivit.transacao_tivit import gera_tra_tivit
 from transacao_max.gera_transacao_max import gera_transacao_max
 from autorizacao_max.gera_autorizacao_max import gera_autorizacao_max
 from movimentacao.movimentar import movimentacao_arq
+from comparativos.gera_comp import executa_zero
 
 
 def valida_ambiente(caminho):
@@ -27,88 +28,96 @@ def executar_automacao():
     if caminho["P_TOTAL"] == "Nao":
 
         if caminho["AMBIENTE"] == "Dev":
-            log_info('#-# Carregamento do ambiente de teste!')
-            valida_ambiente(caminho)
-            log_info('Fim da cargado do ambiente de teste!')
+            if caminho["P_TESTE"] == "Nao":
+                log_info('#-# Carregamento do ambiente de teste!')
+                valida_ambiente(caminho)
+                log_info('Fim da cargado do ambiente de teste!')
 
         log_info("#-# Executando automação automática...")
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["P_DISP"] == "Nao":
             log_info("#-# Verificando pasta base do projeto...")
             executar_limpeza(caminho)
             log_info("#- Termino da rotina da pasta base do projeto!")
         else:
             log_info("Parada ativada, pulando rotina de limpeza!")
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["P_AUT"] == "Nao":
             log_info("#-# Iniciando a geração dos dados de autorizações...")  # noqa
             gera_autorizacao()
             log_info("#- Termino da geração do arquivo de autorizações!")
         else:
             log_info("Parada ativada, pulando rotina de autorizações!")
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["P_EX_AUTOR"] == "Nao":
             log_info("#-# Iniciando a geração dos dados de expurgo de autorizações...")  # noqa
             gera_expu_autorizacao()
             log_info("#- Termino da geração do arquivo de expurgo de autorizações!")  # noqa
         else:
             log_info("Parada ativada, pulando rotina de expurgo de autorizações!")  # noqa
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["P_AUT_TIV"] == "Nao":
             log_info("#-# Iniciando a geração dos dados de autorizações Tivit...")  # noqa
             gera_aut_tivit()
             log_info("#- Termino da geração do arquivo de autorizações Tivit!")
         else:
             log_info("Parada ativada, pulando rotina de autorizações Tivit!")
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["P_AUT_MAX"] == "Nao":
             log_info("#-# Iniciando a geração dos dados de autorizações Max...")  # noqa
             gera_autorizacao_max()
             log_info("#- Termino da geração do arquivo de autorizações Max!")
         else:
             log_info("Parada ativada, pulando rotina de autorizações Max!")
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["P_ABO_DOMI"] == "Nao":
             log_info("#-# Iniciando a geração dos dados de expurgo de domingo...")  # noqa
             dia_da_semana()
             log_info("#- Termino da geração do arquivo de expurgo de domingo!")
         else:
             log_info("Parada ativada, pulando rotina de expurgo de domingo!")
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["P_CONSOL"] == "Nao":
             log_info("#-# Iniciando a rotina de consolidação de arquivos...")  # noqa
             consolida_arq(caminho['RP_CONSOLIDACAO'])
             log_info("#- Termino da rotina de consolidação de arqquivos!")
         else:
             log_info("Parada ativada, pulando rotina de consolidação de arquivos!")  # noqa
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["P_TRANSA"] == "Nao":
             log_info("#-# Iniciando a geração dos dados de Transações...")  # noqa
             gera_transacao()
             log_info("#- Termino da geração do arquivo de Transações!")
         else:
             log_info("Parada ativada, pulando rotina de Transações!")
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["P_TRA_TIV"] == "Nao":
             log_info("#-# Iniciando a geração dos dados de Transações Tivit...")  # noqa
             gera_tra_tivit()
             log_info("#- Termino da geração do arquivo de Transações Tivit!")
         else:
             log_info("Parada ativada, pulando rotina de Transações Tivit!")
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["P_TRA_MAX"] == "Nao":
             log_info("#-# Iniciando a geração dos dados de Transações Max...")  # noqa
             gera_transacao_max()
             log_info("#- Termino da geração do arquivo de Transações Max!")
         else:
             log_info("Parada ativada, pulando rotina de Transações Max!")
 
-        if caminho["P_TOTAL"] == "Nao":
+        if caminho["MOVIME"] == "Nao":
             log_info("#-# Iniciando a rotina de BKP de arquivos...")
             movimentacao_arq()
             log_info("#- Termino da rotina de BKP de arquivos!")
         else:
             log_info("Parada ativada, pulando rotina de BKP de arquivos!")
+
+        if caminho["P_ZERO"] == "Nao":
+            log_info("#-# Iniciando a rotina de carga do Zero...")
+            executa_zero()
+            log_info("#- Termino da rotina de carga do Zero!")
+        else:
+            log_info("Parada ativada, pulando rotina de carga do Zero!")
 
         log_info("#-# Automação automática concluída com sucesso!")
 

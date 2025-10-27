@@ -110,7 +110,7 @@ def exportar_para_csv(dt_arqui_nm, pasta_saida):
 
     # Caminho do CSV
     caminho_csv = os.path.join(
-        pasta_saida, f"{nome_arquivo}.txt")
+        pasta_saida, f"{nome_arquivo}.csv")
 
     with open(caminho_csv, mode="w", newline="", encoding="utf-8") as arquivo_csv: # NOQA
         writer = csv.writer(arquivo_csv, delimiter=",")

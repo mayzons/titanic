@@ -7,8 +7,14 @@ _config_cache = None
 
 
 def _get_config_path():
-    """Retorna o caminho absoluto do arquivo config.json"""
-    return os.path.join(_RAIZ_PROJETO, "utils", "config.json")
+    """
+    Retorna o caminho absoluto do arquivo Config.json.
+    Detecta automaticamente se está rodando via PyInstaller (--onefile).
+    """
+
+    base_path = os.path.join(_RAIZ_PROJETO, "utils")
+
+    return os.path.join(base_path, "Config.json")
 
 
 def caminhos(ambiente_escolhido=None):
@@ -27,15 +33,17 @@ def caminhos(ambiente_escolhido=None):
             data = json.load(f)
     except FileNotFoundError:
         raise FileNotFoundError(
-            f"⚠️ Arquivo de configuração não encontrado: {config_path}")
+            f"Arquivo de configuração não encontrado: {config_path}"
+        )
     except json.JSONDecodeError as e:
-        raise ValueError(f"⚠️ Erro ao ler o JSON de configuração: {e}")
+        raise ValueError(f"Erro ao ler o JSON de configuração: {e}")
 
     ambiente = ambiente_escolhido or data.get("ambiente") or "Prod"
 
     if ambiente not in data:
         raise ValueError(
-            f"⚠️ Ambiente '{ambiente}' não encontrado no config.json")
+            f"Ambiente '{ambiente}' não encontrado no config.json"
+        )
 
     cfg = data[ambiente]
 
@@ -52,6 +60,61 @@ def caminhos(ambiente_escolhido=None):
     }
 
     return _config_cache
+
+# import os
+# import json
+# from datetime import datetime
+# from config import _RAIZ_PROJETO
+
+# _config_cache = None
+
+
+# def _get_config_path():
+#     """Retorna o caminho absoluto do arquivo config.json"""
+#     return os.path.join(_RAIZ_PROJETO, "utils", "Config.json")
+
+
+# def caminhos(ambiente_escolhido=None):
+#     """
+#     Carrega as configurações do ambiente (Dev, Prod etc.) diretamente do JSON.  # noqa
+#     Usa cache para evitar reabertura repetida do arquivo.
+#     """
+#     global _config_cache
+#     if _config_cache is not None and ambiente_escolhido is None:
+#         return _config_cache
+
+#     config_path = _get_config_path()
+
+#     try:
+#         with open(config_path, "r", encoding="utf-8") as f:
+#             data = json.load(f)
+#     except FileNotFoundError:
+#         raise FileNotFoundError(
+#             f"⚠️ Arquivo de configuração não encontrado: {config_path}")
+#     except json.JSONDecodeError as e:
+#         raise ValueError(f"⚠️ Erro ao ler o JSON de configuração: {e}")
+
+#     ambiente = ambiente_escolhido or data.get("ambiente") or "Prod"
+
+#     if ambiente not in data:
+#         raise ValueError(
+#             f"⚠️ Ambiente '{ambiente}' não encontrado no config.json")
+
+#     cfg = data[ambiente]
+
+#     LOGS = os.path.join(_RAIZ_PROJETO, "logs")
+#     NM_LOG = datetime.now().strftime("%Y-%m-%d") + ".log"
+#     os.makedirs(LOGS, exist_ok=True)
+
+#     _config_cache = {
+#         "MINHA_RAIZ": _RAIZ_PROJETO,
+#         "AMBIENTE": ambiente,
+#         "LOGS": LOGS,
+#         "NM_LOG": NM_LOG,
+#         **cfg,
+#     }
+
+#     return _config_cache
 
 
 def salvar_caminho(ambiente, dados: dict):

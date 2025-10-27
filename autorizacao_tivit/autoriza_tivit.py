@@ -24,18 +24,20 @@ def gera_aut_tivit():
         resumo = []
         arquivos = os.listdir(cam_autoriza)
         for arquivo in arquivos:
-            if arquivo.lower() == f'{data_gerar}.csv':
-                df = pd.read_csv(os.path.join(
-                    cam_autoriza, arquivo), sep=",", encoding='utf-8')
-                # Remove colunas indesejadas
+            if f'{data_gerar}.csv' in arquivo.lower():
+                df = pd.read_csv(
+                    os.path.join(cam_autoriza, arquivo),
+                    sep=",", encoding='utf-8')
                 colunas_desejadas = ["POSTO", "Data", "Produto"]
                 df = df[colunas_desejadas]
                 resumo.append(df)
 
-        # Concatena todos os DataFrames em um só
+        # ✅ Verificação antes de concatenar
+        if not resumo:
+            log_info(f"Nenhum arquivo encontrado para a data {data_gerar}. Nenhum CSV gerado.")  # noqa
+            return
+
         df_final = pd.concat(resumo, ignore_index=True)
+        df_final.to_csv(nome_autoriza_tivit.replace(".xlsx", ".csv"), index=False, sep=";", encoding="utf-8")  # noqa
 
-        df_final.to_csv(nome_autoriza_tivit.replace(
-            ".xlsx", ".csv"), index=False, sep=";", encoding="utf-8")
-
-        log_info('Garado o arquivo Tivit de autorização: {nome_autoriza_tivit}')  # noqa
+        log_info(f"Gerado o arquivo Tivit de autorização: {nome_autoriza_tivit}")  # noqa

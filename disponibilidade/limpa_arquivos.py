@@ -1,8 +1,8 @@
 import os
 from utils.logs_escrita import log_info, log_error, log_critical
 from utils.caminhos import caminhos
-from disponibilidade.definicoes import (nome_col, apaga_linha,
-                                        gera_disp)
+from disponibilidade.definicoes import nome_col, apaga_linha, gera_disp
+from comparativos.atualiza_comp import proc_com_abo, proc_sem_abo
 
 
 def executar_limpeza(caminho):
@@ -45,6 +45,24 @@ def executar_limpeza(caminho):
                     elif 'disp_processada' in arquivo.lower():
                         gera_disp(
                             arquivo_origem, caminho['RP_RAIZ'], arquivo)
+
+                        total_arquivos -= 1
+
+                    elif 'disp_sem_abono' in arquivo.lower():
+                        proc_sem_abo(
+                            arquivo_origem)
+
+                        total_arquivos -= 1
+
+                    elif 'disp_com_abono' in arquivo.lower():
+                        proc_com_abo(
+                            arquivo_origem)
+
+                        total_arquivos -= 1
+
+                    elif 'opc ' in arquivo.lower():
+                        proc_com_abo(
+                            arquivo_origem)
 
                         total_arquivos -= 1
 
