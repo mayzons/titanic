@@ -160,71 +160,70 @@ def proc_com_abo(arquivo_csv):
 
 def proc_opc(arquivo_opc):
     caminho = caminhos()
-    # === 1️⃣ Extrair a data do nome do arquivo ===
-    padrao_data = re.search(r'(\d{2}\.\d{2}\.\d{4})', os.path.basename(arquivo_opc)) # noqa
-    if not padrao_data:
-        raise ValueError(
-            log_info(f"Lendo arquivo: {arquivo_opc}, não foi possível extrair a data do nome do arquivo.")) # noqa
-    # Converter para formato ISO (YYYY-MM-DD, sem hora)
-    data_report = datetime.strptime(
-        padrao_data.group(1), "%d.%m.%Y").strftime("%Y-%m-%d")
-    log_info(f"Processando a data Report: {data_report}")
 
-    # === 2️⃣ Ler o arquivo Excel ===
-    df = pd.read_excel(arquivo_opc)
+    try:
+        # arquivo_opc = r'C:\script\amb_dv\1_tratar\OPC 27.10.2025.xlsx'
 
-    # === 3️⃣ Renomear colunas conforme estrutura ===
-    df.columns = [
-        "Codigo", "Nome", "VIP", "Versao_Solucao", "Suspenso", "Suspended_Date",  # noqa
-        "Rua", "Cidade", "Estado", "CEP", "OPC", "Data_OPC", "CNPJ",
-        "Bandeira", "Rede", "Tipo_Servico", "IP", "Classificacao",
-        "Longitude", "Latitude", "Qtd_Pistas"
-    ]
+        log_info(f"Lendo arquivo: {arquivo_opc}")
+        # Lê todas as abas e concatena
+        dados = pd.read_excel(arquivo_opc, sheet_name=None)
+        df = pd.concat(dados.values(), ignore_index=True)
 
-    # === 4️⃣ Adicionar coluna Data_Report ===
-    df["Data_Report"] = data_report
+        # Extrair a data do nome
+        padrao_data = re.search(
+            r'(\d{2}\.\d{2}\.\d{4})', os.path.basename(arquivo_opc))
+        if padrao_data:
+            data_report = datetime.strptime(
+                padrao_data.group(1), "%d.%m.%Y").strftime("%Y-%m-%d")
+        else:
+            data_report = None
 
-    # === 5️⃣ Conectar ao banco ===
-    banco = caminho['BANCOSQLITE_COM']
-    con = sqlite3.connect(banco)
-    cursor = con.cursor()
+        # Renomear colunas para compatibilidade com o banco
+        df.columns = [
+            "Codigo", "Nome", "VIP", "Versao_Solucao", "Suspenso",
+            "Suspended_Date", "Rua", "Cidade", "Estado", "CEP", "OPC",
+            "Data_OPC",
+            "CNPJ", "Bandeira", "Rede", "Tipo_Servico", "IP", "Classificacao",
+            "Longitude", "Latitude", "Qtd_Pistas"
+        ]
 
-    # === 6️⃣ Criar tabela se não existir ===
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS REPORT_OPC (
-        Codigo TEXT, Nome TEXT, VIP TEXT, Versao_Solucao TEXT, Suspenso TEXT,
-        Suspended_Date TEXT, Rua TEXT, Cidade TEXT, Estado TEXT, CEP TEXT,
-        OPC TEXT, Data_OPC TEXT, CNPJ TEXT, Bandeira TEXT, Rede TEXT,
-        Tipo_Servico TEXT, IP TEXT, Classificacao TEXT, Longitude TEXT,
-        Latitude TEXT, Qtd_Pistas TEXT, Data_Report TEXT,
-        Arquivo_Origem TEXT
-    )
-    """)
-    con.commit()
+        # Adiciona colunas extras
+        df["Data_Report"] = data_report
+        df["Arquivo_Origem"] = os.path.basename(arquivo_opc)
 
-    # === 7️⃣ Verificar se a data já existe ===
-    cursor.execute("SELECT COUNT(1) FROM REPORT_OPC WHERE Data_Report = ?",
-                   (data_report,))
-    existe = cursor.fetchone()[0]
+    # Conectar e garantir tabela
+        banco = caminho["BANCOSQLITE_COM"]
+        con = sqlite3.connect(banco)
+        cur = con.cursor()
 
-    if existe > 0:
-        log_info(f"Removendo registros existentes da Data_Report {data_report}...")  # NOQA
-        cursor.execute("DELETE FROM REPORT_OPC WHERE Data_Report = ?", (data_report,)) # NOQA
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS REPORT_OPC (
+            Codigo TEXT, Nome TEXT, VIP TEXT, Versao_Solucao TEXT,
+                    Suspenso TEXT,
+            Suspended_Date TEXT, Rua TEXT, Cidade TEXT, Estado TEXT, CEP TEXT,
+            OPC TEXT, Data_OPC TEXT, CNPJ TEXT, Bandeira TEXT, Rede TEXT,
+            Tipo_Servico TEXT, IP TEXT, Classificacao TEXT, Longitude TEXT,
+            Latitude TEXT, Qtd_Pistas TEXT, Data_Report TEXT,
+            Arquivo_Origem TEXT
+        )
+        """)
         con.commit()
 
-    # === 8️⃣ Adicionar o nome do arquivo como origem ===
-    df["Arquivo_Origem"] = os.path.basename(arquivo_opc)
+        # Remover registros da data já existente
+        cur.execute("DELETE FROM REPORT_OPC WHERE Data_Report = ?",
+                    (data_report,))
+        con.commit()
 
-    # === 9️⃣ Inserir os novos dados ===
-    log_info(f"Inserindo {len(df)} registros na tabela REPORT_OPC...")
-    df.to_sql("REPORT_OPC", con, if_exists="append", index=False)
+        # Inserir dados limpos
+        df.to_sql("REPORT_OPC", con, if_exists="append", index=False)
+        con.commit()
+        con.close()
 
-    # === 🔟 Fechar conexões ===
-    con.commit()
-    con.close()
+        log_info(f"{len(df)} registros processados para {data_report}")
+        os.remove(arquivo_opc)
 
-    os.remove(arquivo_opc)
-    log_info(f"Arquivo {arquivo_opc} movido para lixeira após processamento.")
+    except Exception as e:
+        log_info(f"Erro ao processar {arquivo_opc}: {e}")
 
 
 def puxa_excel_zero(arquivo_excel):

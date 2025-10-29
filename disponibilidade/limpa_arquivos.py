@@ -2,7 +2,7 @@ import os
 from utils.logs_escrita import log_info, log_error, log_critical
 from utils.caminhos import caminhos
 from disponibilidade.definicoes import nome_col, apaga_linha, gera_disp
-from comparativos.atualiza_comp import proc_com_abo, proc_sem_abo
+from comparativos.atualiza_comp import proc_com_abo, proc_sem_abo, proc_opc
 
 
 def executar_limpeza(caminho):
@@ -61,7 +61,7 @@ def executar_limpeza(caminho):
                         total_arquivos -= 1
 
                     elif 'opc ' in arquivo.lower():
-                        proc_com_abo(
+                        proc_opc(
                             arquivo_origem)
 
                         total_arquivos -= 1
