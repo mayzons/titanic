@@ -10,10 +10,10 @@ from datetime import datetime
 
 def proc_sem_abo(arquivo_csv):
     caminho = caminhos()
-    db_path = caminho['BANCOSQLITE_COM']  # caminho do seu banco SQLite
+    db_path = caminho['BANCOSQLITE_COM']
 
     if not os.path.exists(arquivo_csv):
-        log_info(f"Nenhum arquivo para proessar: {arquivo_csv}")
+        log_info(f"Nenhum arquivo para processar: {arquivo_csv}")
         return
 
     log_info(f"Lendo arquivo: {arquivo_csv}")
@@ -29,9 +29,11 @@ def proc_sem_abo(arquivo_csv):
         # Corrigir possíveis erros de encoding
         df.columns = df.columns.str.replace("Ã³", "ó").str.replace("Ã§", "ç")
 
-        # Tratar os dados
+        # Converter Data_Report para datetime (mantendo só a data)
         df["Data_Report"] = pd.to_datetime(
-            df["Data_Report"], errors="coerce").dt.date.astype(str)
+            df["Data_Report"], errors="coerce").dt.date
+
+        # Converter Disp_Final para número
         df["Disp_Final"] = (
             df["Disp_Final"]
             .astype(str)
@@ -40,6 +42,8 @@ def proc_sem_abo(arquivo_csv):
         )
         df["Disp_Final"] = pd.to_numeric(
             df["Disp_Final"], errors="coerce").fillna(0)
+
+        # Nome do arquivo
         df["Arquivo_Origem"] = os.path.basename(arquivo_csv)
 
         # Capturar a data do CSV
@@ -50,19 +54,48 @@ def proc_sem_abo(arquivo_csv):
         con = sqlite3.connect(db_path)
         cur = con.cursor()
 
-        # Verificar se a data já existe
-        cur.execute("SELECT COUNT(*) FROM DISP_S_ABON WHERE Data_Report = ?",
-                    (data_csv,))
-        existe = cur.fetchone()[0] > 0
+        # Garantir que a tabela tenha a coluna Data_Report como DATE
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS DISP_S_ABON (
+                Codigo_Comp TEXT,
+                Nome TEXT,
+                Data_Report DATE,
+                Versao TEXT,
+                VIP TEXT,
+                Suspenso TEXT,
+                Bandeira TEXT,
+                Disp_Final REAL,
+                Arquivo_Origem TEXT
+            )
+        """)
+        con.commit()
 
-        if existe:
-            log_info(f"Registros existentes encontrados para {data_csv}. Removendo...")  # noqa
-            cur.execute("DELETE FROM DISP_S_ABON WHERE Data_Report = ?",
-                        (data_csv,))
-            con.commit()
+        # Remover registros anteriores para mesma data
+        cur.execute(
+            "DELETE FROM DISP_S_ABON WHERE DATE(Data_Report) = ?", (data_csv,))
+        con.commit()
 
-        # Inserir novos dados
-        df.to_sql("DISP_S_ABON", con, if_exists="append", index=False)
+        # Inserir dados linha a linha garantindo o tipo DATE
+        insert_sql = """
+            INSERT INTO DISP_S_ABON (
+                Codigo_Comp, Nome, Data_Report, Versao,
+                VIP, Suspenso, Bandeira, Disp_Final, Arquivo_Origem
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """
+
+        for _, row in df.iterrows():
+            cur.execute(insert_sql, (
+                row["Codigo_Comp"],
+                row["Nome"],
+                row["Data_Report"].strftime("%Y-%m-%d"),  # formato padrão ISO
+                row["Versao"],
+                row["VIP"],
+                row["Suspenso"],
+                row["Bandeira"],
+                row["Disp_Final"],
+                row["Arquivo_Origem"]
+            ))
+
         con.commit()
         con.close()
 
@@ -71,23 +104,22 @@ def proc_sem_abo(arquivo_csv):
     except Exception as e:
         log_info(f"Erro ao processar {arquivo_csv}: {e}")
 
-    destino = os.path.join(caminho['RB_COMPARATIVO'], os.path.basename(arquivo_csv))  # noqa
-    # Se já existir um arquivo com o mesmo nome, apaga antes de mover
+    # Mover arquivo processado
+    destino = os.path.join(
+        caminho['RB_COMPARATIVO'], os.path.basename(arquivo_csv))
     if os.path.exists(destino):
         os.remove(destino)
         log_info(f"Arquivo existente removido: {destino}")
-
-    # Agora move o arquivo
     shutil.move(arquivo_csv, destino)
     log_info(f"Arquivo {arquivo_csv} movido para {destino}")
 
 
 def proc_com_abo(arquivo_csv):
     caminho = caminhos()
-    db_path = caminho['BANCOSQLITE_COM']  # caminho do seu banco SQLite
+    db_path = caminho['BANCOSQLITE_COM']
 
     if not os.path.exists(arquivo_csv):
-        log_info(f"Nenhum arquivo para proessar: {arquivo_csv}")
+        log_info(f"Nenhum arquivo para processar: {arquivo_csv}")
         return
 
     log_info(f"Lendo arquivo: {arquivo_csv}")
@@ -103,9 +135,11 @@ def proc_com_abo(arquivo_csv):
         # Corrigir possíveis erros de encoding
         df.columns = df.columns.str.replace("Ã³", "ó").str.replace("Ã§", "ç")
 
-        # Tratar os dados
+        # Converter Data_Report para datetime (mantendo só a data)
         df["Data_Report"] = pd.to_datetime(
-            df["Data_Report"], errors="coerce").dt.date.astype(str)
+            df["Data_Report"], errors="coerce").dt.date
+
+        # Converter Disp_Final para número
         df["Disp_Final"] = (
             df["Disp_Final"]
             .astype(str)
@@ -114,6 +148,8 @@ def proc_com_abo(arquivo_csv):
         )
         df["Disp_Final"] = pd.to_numeric(
             df["Disp_Final"], errors="coerce").fillna(0)
+
+        # Nome do arquivo
         df["Arquivo_Origem"] = os.path.basename(arquivo_csv)
 
         # Capturar a data do CSV
@@ -124,19 +160,48 @@ def proc_com_abo(arquivo_csv):
         con = sqlite3.connect(db_path)
         cur = con.cursor()
 
-        # Verificar se a data já existe
-        cur.execute("SELECT COUNT(*) FROM DISP_C_ABON WHERE Data_Report = ?",
-                    (data_csv,))
-        existe = cur.fetchone()[0] > 0
+        # Garantir que a tabela tenha a coluna Data_Report como DATE
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS DISP_C_ABON (
+                Codigo_Comp TEXT,
+                Nome TEXT,
+                Data_Report DATE,
+                Versao TEXT,
+                VIP TEXT,
+                Suspenso TEXT,
+                Bandeira TEXT,
+                Disp_Final REAL,
+                Arquivo_Origem TEXT
+            )
+        """)
+        con.commit()
 
-        if existe:
-            log_info(f"Registros existentes encontrados para {data_csv}. Removendo...")  # noqa
-            cur.execute("DELETE FROM DISP_C_ABON WHERE Data_Report = ?",
-                        (data_csv,))
-            con.commit()
+        # Remover registros anteriores para mesma data
+        cur.execute(
+            "DELETE FROM DISP_C_ABON WHERE DATE(Data_Report) = ?", (data_csv,))
+        con.commit()
 
-        # Inserir novos dados
-        df.to_sql("DISP_S_ABON", con, if_exists="append", index=False)
+        # Inserir dados linha a linha garantindo o tipo DATE
+        insert_sql = """
+            INSERT INTO DISP_C_ABON (
+                Codigo_Comp, Nome, Data_Report, Versao,
+                VIP, Suspenso, Bandeira, Disp_Final, Arquivo_Origem
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """
+
+        for _, row in df.iterrows():
+            cur.execute(insert_sql, (
+                row["Codigo_Comp"],
+                row["Nome"],
+                row["Data_Report"].strftime("%Y-%m-%d"),  # formato padrão ISO
+                row["Versao"],
+                row["VIP"],
+                row["Suspenso"],
+                row["Bandeira"],
+                row["Disp_Final"],
+                row["Arquivo_Origem"]
+            ))
+
         con.commit()
         con.close()
 
@@ -145,15 +210,12 @@ def proc_com_abo(arquivo_csv):
     except Exception as e:
         log_info(f"Erro ao processar {arquivo_csv}: {e}")
 
+    # Mover arquivo processado
     destino = os.path.join(
         caminho['RB_COMPARATIVO'], os.path.basename(arquivo_csv))
-
-    # Se já existir um arquivo com o mesmo nome, apaga antes de mover
     if os.path.exists(destino):
         os.remove(destino)
         log_info(f"Arquivo existente removido: {destino}")
-
-    # Agora move o arquivo
     shutil.move(arquivo_csv, destino)
     log_info(f"Arquivo {arquivo_csv} movido para {destino}")
 
@@ -200,10 +262,10 @@ def proc_opc(arquivo_opc):
         CREATE TABLE IF NOT EXISTS REPORT_OPC (
             Codigo TEXT, Nome TEXT, VIP TEXT, Versao_Solucao TEXT,
                     Suspenso TEXT,
-            Suspended_Date TEXT, Rua TEXT, Cidade TEXT, Estado TEXT, CEP TEXT,
+            Suspended_Date DATE, Rua TEXT, Cidade TEXT, Estado TEXT, CEP TEXT,
             OPC TEXT, Data_OPC TEXT, CNPJ TEXT, Bandeira TEXT, Rede TEXT,
             Tipo_Servico TEXT, IP TEXT, Classificacao TEXT, Longitude TEXT,
-            Latitude TEXT, Qtd_Pistas TEXT, Data_Report TEXT,
+            Latitude TEXT, Qtd_Pistas TEXT, Data_Report DATE,
             Arquivo_Origem TEXT
         )
         """)
@@ -276,7 +338,7 @@ def puxa_excel_zero(arquivo_excel):
     # Criar tabela (caso não exista)
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS ZERO_TRN (
-        Data_Report TEXT, Codigo TEXT, Nome TEXT, VIP TEXT, Data_TRNX TEXT,
+        Data_Report DATA, Codigo TEXT, Nome TEXT, VIP TEXT, Data_TRNX TEXT,
         Dias_s_TRNX INTEGER, Status TEXT, Grupo TEXT, Total_TRN_2024 INTEGER,
         Media_TRN_Mes INTEGER, SLA_Violado TEXT, Perc_SLA REAL, Chamado TEXT,
         Grupo_Designado TEXT, Criado_em TEXT, IP TEXT, Versao_Solucao TEXT,
@@ -346,7 +408,7 @@ def puxa_excel_disp_sem():
     # Criar tabela se não existir
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS DISP_S_ABON (
-        Codigo_Comp TEXT, Nome TEXT, Data_Report TEXT, Versao TEXT,
+        Codigo_Comp TEXT, Nome TEXT, Data_Report DATA, Versao TEXT,
         VIP TEXT, Suspenso TEXT, Bandeira TEXT, Disp_Final REAL,
         Arquivo_Origem TEXT
     )
@@ -418,7 +480,7 @@ def puxa_excel_disp_com():
     # Criar tabela se não existir
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS DISP_C_ABON (
-        Codigo_Comp TEXT, Nome TEXT, Data_Report TEXT, Versao TEXT,
+        Codigo_Comp TEXT, Nome TEXT, Data_Report DATA, Versao TEXT,
         VIP TEXT, Suspenso TEXT, Bandeira TEXT, Disp_Final REAL,
         Arquivo_Origem TEXT
     )
@@ -444,6 +506,64 @@ def puxa_excel_disp_com():
     con.close()
 
     print(f"✅ Importação concluída com sucesso! {len(df)} linhas inseridas para {data_relatorio}.")  # noqa
+
+
+def semanas():
+    caminho = caminhos()
+    print("COMECANDO SEMANAS")
+
+    arquivo_excel = r"C:\Users\mayzon.santos\Corpay\Indicadores_PowerBi - Documentos\Indicadores_PowerBI\Tratativas\Semanas.xlsx" # noqa
+    banco_sqlite = caminho['BANCOSQLITE_COM']
+    aba = "Planilha1"
+
+    # Colunas exatamente como estão no Excel
+    colunas_desejadas = [
+        "Dia", "Semana", "Inicio semana", "Fim semana", "Nome", "Dia demana"
+    ]
+
+    print("Lendo Excel Semanas...")
+    try:
+        df = pd.read_excel(arquivo_excel, sheet_name=aba, usecols=colunas_desejadas) # noqa
+    except Exception as e:
+        print(f"Erro ao ler o Excel: {e}")
+        return
+
+    # Normaliza os nomes das colunas para o banco
+    df.columns = ["Data", "Semana", "Inicio_Semana", "Fim_Semana", "Nome_Semana", "Ano"] # noqa
+
+    # Converte as colunas de data
+    for c in ["Data", "Inicio_Semana", "Fim_Semana"]:
+        df[c] = pd.to_datetime(df[c], errors="coerce").dt.date.astype(str)
+
+    # Conecta ao banco SQLite
+    con = sqlite3.connect(banco_sqlite)
+    cursor = con.cursor()
+
+    # Cria tabela se não existir
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS SEMANAS (
+            Data TEXT,
+            Semana TEXT,
+            Inicio_Semana TEXT,
+            Fim_Semana TEXT,
+            Nome_Semana TEXT,
+            Ano TEXT
+        )
+    """)
+
+    # Remove registros antigos (baseado na primeira data)
+    data_relatorio = df["Data"].iloc[0]
+    cursor.execute("DELETE FROM SEMANAS WHERE Data = ?", (data_relatorio,))
+    con.commit()
+
+    # Insere os novos registros
+    print(f"Gravando {len(df)} linhas no SQLite...")
+    df.to_sql("SEMANAS", con, if_exists="append", index=False)
+
+    con.commit()
+    con.close()
+
+    print(f"Importação concluída com sucesso! {len(df)} linhas inseridas para {data_relatorio}.") # noqa
 
 
 def insert_sqlite(exec):
@@ -472,3 +592,6 @@ def insert_sqlite(exec):
     connsqlite.close()
 
     log_info(f'Execução {exec} inserida no SQLite com sucesso!')
+
+
+semanas()
